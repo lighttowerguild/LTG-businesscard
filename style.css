@@ -51,6 +51,7 @@ body {
   position: absolute;
   border-radius: 50%;
   border: 6px solid white;
+  background-repeat: no-repeat;
   background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
   top: 15px;
   left: 85px;
@@ -75,7 +76,7 @@ path {
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-image: url("https://picsum.photos/200/300");
+  background-image: url("images/lighttower.png");
   background-position: bottom center;
   background-size: cover;
 }
@@ -86,6 +87,7 @@ button {
   color: green;
   cursor: pointer;
   transition: 0.5s;
+  outline:none;
 }
 button:hover {
   color: #4caf50;
