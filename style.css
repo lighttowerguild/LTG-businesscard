@@ -64,6 +64,7 @@ body {
   padding: 2.5em 1.5em 1.5em 1.5em;
   color: green;
   font-family: Open Sans, Arial, sans-serif;
+  text-align: right;
 }
 path {
   fill: white;
